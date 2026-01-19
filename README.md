@@ -47,6 +47,9 @@ At each monthly rebalance:
 - Credit spread regime from VCIT minus VGIT momentum.
 
 ## Parameters
+User-defined settings toggle between a momentum-tilted portfolio and a broader
+allocator portfolio, depending on whether Top-N is enabled and how filtered
+weights are handled.
 - `max_bitcoin_weight` (float, default `0.25`): cap on BTC allocation.
 - `_lookback` (int, default `504`): historical window.
 - `_ma_period` (int, default `147`): SMA period.
